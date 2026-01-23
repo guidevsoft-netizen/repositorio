@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav img {
+    height: 100px;
+    width: auto;
+}
+main {
+    background-color: gray;
+    margin: 12%;
+    padding: 20%;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
