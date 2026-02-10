@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular tempo no estacionamento</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h2>Calcular tempo no estacionamento</h2>
+    <img src="tabeladeprecos.png">
+    <br>
+    <label for="valor">Insira o valor que é equivalente ao tempo que você vai permanecer no estacionamento (limite de 2 horas):</label><br><br>
+    <input placeholder="valor" type="number" id="valor" step="0.01">
+    <button type="button" onclick="calcularTempoDeEstacionamento()">Calcular</button>
+    
+    <p id="contagem"></p>
+    <p id="resto"></p>
+</body>
+</html>
